@@ -7,8 +7,8 @@ export default function PokemonList({ pokemonsList, loadPokemons, isNext }) {
     //showsVerticalScrollIndicator   -  hace que no aparezca una barra de scroll
 
     const loadMore = () => {
-        // console.log('cargando mas pokemons');
-        loadPokemons();
+        //  console.log('cargando mas pokemons');
+         loadPokemons();
     }
 
     return (

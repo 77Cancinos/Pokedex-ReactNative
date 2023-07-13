@@ -6,15 +6,12 @@ import { useNavigation } from '@react-navigation/native';
 export default function PokemonCard({ pokemon }) {
 
     const navigation = useNavigation();
-
-    // console.log(pokemon);
+    //console.log(pokemon);
 
     // console.log(pokemon.type);
     const pokemonColor = getColorByPokemonType(pokemon.type);
     // console.log(pokemonColor);
     const bgStyles = { backgroundColor: pokemonColor, ...styles.bgStyles }
-
-
 
     const goToPokemon = () => {
         // console.log(`Vamos al pokemon: ${pokemon.name}`);
@@ -52,7 +49,6 @@ export default function PokemonCard({ pokemon }) {
         </View> */}
 
         </TouchableWithoutFeedback>
-
 
     )
 }
